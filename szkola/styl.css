@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #122f30;
+}
+.mickiewicz {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  transition: 0.5s;
+}
+.slowacki {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  transition: 0.5s;
+}
+.sienkiewicz {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+transition: 0.5s;
+}
+.mickiewicz:hover {
+  width: 220px;
+  height: 270px;
+}
+.slowacki:hover {
+  width: 220px;
+  height: 270px;
+}
+.sienkiewicz:hover {
+  width: 220px;
+  height: 270px;
+}
